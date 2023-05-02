@@ -12,7 +12,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 
 # Read our dataset using read_csv()
-bbc_text = pd.read_csv(r"C:\Users\user\Downloads\bbc-text.txt")
+bbc_text = pd.read_csv(r"bbc-text.txt")
 bbc_text=bbc_text.rename(columns = {'text': 'News_Headline'}, inplace = False)
 bbc_text.head()
 
