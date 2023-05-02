@@ -1,3 +1,2 @@
 pandas
-sklearn
-pickle
+scikit-learn 
